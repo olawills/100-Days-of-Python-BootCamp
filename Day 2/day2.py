@@ -54,19 +54,6 @@
 
 #Building A Tip Calculator
 
-# message = "Welcome to the tip calculator"
-# message_2 = int(input("What was the total bill? "))
-# tip_1 = 0.1 
-# tip_2 = 0.12
-# tip_3 = 0.15
-# message_3 = int(input(f"What percentage tip would you like to give? {10}, {12}, or {15}? "))
-# message_4 = int(input("How many people to split the bill? "))
-# tip = tip_1 * message_4
-# tips = tip_2 * message_4
-# tipes = tip_3 * message_4
-
-# final_message = f"Each person should pay: {tip}"
-# print(final_message)
 print("Welcome to the tip calculator!..")
 bill = float(input("What was the total bill? $"))
 tip = int(input("How much tip would you like to give? 10, 12, or 15? "))
