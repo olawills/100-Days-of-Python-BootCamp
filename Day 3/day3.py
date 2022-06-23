@@ -1,150 +1,150 @@
 # Day 3...
-# print("Welcome to the rollercoaster!")
-# height = int(input("What is your height in cm? "))
-# bill = 0
+print("Welcome to the rollercoaster!")
+height = int(input("What is your height in cm? "))
+bill = 0
 
-# if height >= 120:
-#     print("You can ride the rollercoaster!")
-#     age = int(input("What is your age "))
-#     if age < 12:
-#         bill = 5
-#         print("Child ticket are to pay $5")
-#     elif age <= 18:
-#         bill = 7
-#         print("Teenagers ticket are to pay $7")
-#     elif age <= 21:
-#         bill = 9
-#         print("Youth ticket are to pay a $9 ticket as you are an adult")
-#     elif age <= 25:
-#         bill = 10
-#         print("Young Adult ticket are to pay a $10 ticket")
-#     elif age >= 45 and age <= 55:
-#         bill = 0
-#         print("You get a free ticket ")
-#     else:
-#         bill = 12
-#         print("Please pay $12")
+if height >= 120:
+    print("You can ride the rollercoaster!")
+    age = int(input("What is your age "))
+    if age < 12:
+        bill = 5
+        print("Child ticket are to pay $5")
+    elif age <= 18:
+        bill = 7
+        print("Teenagers ticket are to pay $7")
+    elif age <= 21:
+        bill = 9
+        print("Youth ticket are to pay a $9 ticket as you are an adult")
+    elif age <= 25:
+        bill = 10
+        print("Young Adult ticket are to pay a $10 ticket")
+    elif age >= 45 and age <= 55:
+        bill = 0
+        print("You get a free ticket ")
+    else:
+        bill = 12
+        print("Please pay $12")
         
-#     wants_photo = input("Do you want a photo taken? Y or N. ")
-#     if wants_photo == "Y":
-#         bill += 3
+    wants_photo = input("Do you want a photo taken? Y or N. ")
+    if wants_photo == "Y":
+        bill += 3
         
-#     print(f"Your final bill is ${bill}")
+    print(f"Your final bill is ${bill}")
         
-# else:
-#     print("You are not up to the height!....")
+else:
+    print("You are not up to the height!....")
     
     
-# number = int(input("Which number do you want to check "))
+number = int(input("Which number do you want to check "))
 
-# if number % 2 == 0:
-#     print("This is a even number")
+if number % 2 == 0:
+    print("This is a even number")
          
-# else:
-#     print("This is an odd number")    
+else:
+    print("This is an odd number")    
 
 # Write a program that interpretes the Body Mass Index (BMI based on a user's weight and height
 
-# height = float(input("Enter your height in m: "))
-# weight = float(input("Enter your weight in kg: "))
-# height = height **2
+height = float(input("Enter your height in m: "))
+weight = float(input("Enter your weight in kg: "))
+height = height **2
 
-# BMI = weight / height
-# BMI_TOTAL = round(BMI, 1)
+BMI = weight / height
+BMI_TOTAL = round(BMI, 1)
 
-# if BMI < 18.5:
-#     print(f"Your BMI is {BMI_TOTAL}, You are underweight.. ")
-# elif BMI < 25:
-#     print(f"Your BMI is {BMI_TOTAL}, You have a normal wieght.. ")
-# elif BMI < 30:
-#     print(f"Your BMI is {BMI_TOTAL}, You are overweight.. ")
-# elif BMI < 35:
-#     print(f"Your BMI is {BMI_TOTAL}, You are obese.. ")
-# else:
-#     print(f"Your BMI is {BMI_TOTAL}, You are clinically obese.. ")
+if BMI < 18.5:
+    print(f"Your BMI is {BMI_TOTAL}, You are underweight.. ")
+elif BMI < 25:
+    print(f"Your BMI is {BMI_TOTAL}, You have a normal wieght.. ")
+elif BMI < 30:
+    print(f"Your BMI is {BMI_TOTAL}, You are overweight.. ")
+elif BMI < 35:
+    print(f"Your BMI is {BMI_TOTAL}, You are obese.. ")
+else:
+    print(f"Your BMI is {BMI_TOTAL}, You are clinically obese.. ")
     
 # Write a program that works out whether if a given year is a leap year.. 
 
-# leap_input = int(input("Enter a year "))
+leap_input = int(input("Enter a year "))
 
-# if leap_input % 4 == 0:
-#     if leap_input % 100 == 0:
-#         if leap_input % 400 == 0:
-#             print("Leap Year")
-#         else:
-#             print("Not Leap Year")
-#     else:
-#         print("Leap year")
-# else:
-#     print("Not a Leap Year")
+if leap_input % 4 == 0:
+    if leap_input % 100 == 0:
+        if leap_input % 400 == 0:
+            print("Leap Year")
+        else:
+            print("Not Leap Year")
+    else:
+        print("Leap year")
+else:
+    print("Not a Leap Year")
 
 
 # Build an automatic pizza order program, Based on a user's order, work out their final bill..
 
-# print("Welcome to Python Pizza Deliveries!")
-# size = input("What size pizza do you want? S, M, or L ")
-# add_pepperoni = input("Do you want pepperoni? Y or N ")
-# extra_cheese = input("Do you want extra cheese? Y or N ")
+print("Welcome to Python Pizza Deliveries!")
+size = input("What size pizza do you want? S, M, or L ")
+add_pepperoni = input("Do you want pepperoni? Y or N ")
+extra_cheese = input("Do you want extra cheese? Y or N ")
 
-# bill = 0
+bill = 0
 
-# if size == "S":
-#     bill += 15
+if size == "S":
+    bill += 15
     
-# elif size == "M":
-#     bill += 20
+elif size == "M":
+    bill += 20
     
-# else:
-#     bill += 25
+else:
+    bill += 25
     
     
-# if add_pepperoni == "Y":
-#     if size == "S":
-#         bill  += 2
-#     else:
-#         bill += 3
+if add_pepperoni == "Y":
+    if size == "S":
+        bill  += 2
+    else:
+        bill += 3
         
-# if extra_cheese == "Y":
-#     bill += 1
+if extra_cheese == "Y":
+    bill += 1
     
-# print(f"Your final bill is ${bill}")
+print(f"Your final bill is ${bill}")
 
 # Love Calculator..
 # Write a program that tests the compatibility between two people.
 
-# print("Welcome to the Love Calculator!.. ")
-# name1 = input("What is your name? \n")
-# name2 = input("What is the name of your Crush? \n")
+print("Welcome to the Love Calculator!.. ")
+name1 = input("What is your name? \n")
+name2 = input("What is the name of your Crush? \n")
 
-# combined_string = name1 + name2
-# lower_case_string = combined_string.lower()
+combined_string = name1 + name2
+lower_case_string = combined_string.lower()
 
-# t = lower_case_string.count("t")
-# r = lower_case_string.count("r")
-# u = lower_case_string.count("u")
-# e = lower_case_string.count("e")
+t = lower_case_string.count("t")
+r = lower_case_string.count("r")
+u = lower_case_string.count("u")
+e = lower_case_string.count("e")
 
-# true = t + r + u + e
+true = t + r + u + e
 
-# l = lower_case_string.count("l")
-# o = lower_case_string.count("o")
-# v= lower_case_string.count("v")
-# e = lower_case_string.count("e")
+l = lower_case_string.count("l")
+o = lower_case_string.count("o")
+v= lower_case_string.count("v")
+e = lower_case_string.count("e")
 
-# love = l + o + v + e
+love = l + o + v + e
 
-# love_score = str(true) + str(love)
-# print(f"Your score is {love_score}")
-# # love_total = str(love_score)
+love_score = str(true) + str(love)
+print(f"Your score is {love_score}")
+# love_total = str(love_score)
 
-# if (love_score < "10") or (love_score > "90"):
-#     print(f"Your score is {love_score}, you go together like coke and mentos.")
+if (love_score < "10") or (love_score > "90"):
+    print(f"Your score is {love_score}, you go together like coke and mentos.")
 
-# elif (love_score >= "40") and (love_score <= "50"):
-#     print(f"Your score is {love_score}, you are alright together")
+elif (love_score >= "40") and (love_score <= "50"):
+    print(f"Your score is {love_score}, you are alright together")
     
-# else:
-#     print(f"You score is {love_score}")
+else:
+    print(f"You score is {love_score}")
 
 # Project Treasure Island...
 
