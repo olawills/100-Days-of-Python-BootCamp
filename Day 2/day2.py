@@ -1,10 +1,10 @@
 # Day 2...
-# print(len("Williams"))
+print(len("Williams"))
 
-# print("Williams"[7])
+print("Williams"[7])
 
-# james = str(input("Enter any number: "))
-# print("Hello " + james)
+james = str(input("Enter any number: "))
+print("Hello " + james)
 
 # Data Types
 # String
@@ -12,45 +12,45 @@
 # Boolean
 #Integer
 
-# numOfChars = str(len(input("What is your name: ")))
-# print("Your name has " + numOfChars + " Characters...")
+numOfChars = str(len(input("What is your name: ")))
+print("Your name has " + numOfChars + " Characters...")
 
-# print(70 + float("100.5"))
+print(70 + float("100.5"))
 
-# a = float(235)
-# print(type(a))
+a = float(235)
+print(type(a))
 
 # Data Types Exercises...
 
 
-# two_digit_number = input("Enter a three digits number: ")
-# first = int(two_digit_number[0])
-# second = int(two_digit_number[1])
-# third = int(two_digit_number[2])
-# print(first + second + third)
+two_digit_number = input("Enter a three digits number: ")
+first = int(two_digit_number[0])
+second = int(two_digit_number[1])
+third = int(two_digit_number[2])
+print(first + second + third)
 
 # BMI CALCULATOR...
 
-# height = int(input("Enter your height in m: "))
-# weight = int(input("Enter your weight in kg: "))
-# height = height ** 2
+height = int(input("Enter your height in m: "))
+weight = int(input("Enter your weight in kg: "))
+height = height ** 2
 
-# #print(round(weight / height, 2))
-# bmi_calculator = round(weight / height, )
-# print(f"Your BMI is {bmi_calculator} Percentile")
+#print(round(weight / height, 2))
+bmi_calculator = round(weight / height, )
+print(f"Your BMI is {bmi_calculator} Percentile")
 
 # Number Manipulation...
 
 #  Program to get your age left if your to live for 90 years
-# age = int(input("What is your current age? "))
+age = int(input("What is your current age? "))
 
-# years_remaining = 90 - age
-# days_remaining = years_remaining * 365
-# weeks_remaining = years_remaining * 52
-# months_remaining = years_remaining * 12
+years_remaining = 90 - age
+days_remaining = years_remaining * 365
+weeks_remaining = years_remaining * 52
+months_remaining = years_remaining * 12
 
-# message = f"You have {years_remaining} years, {days_remaining} days, {weeks_remaining} weeks, {months_remaining} months left"
-# print(message)
+message = f"You have {years_remaining} years, {days_remaining} days, {weeks_remaining} weeks, {months_remaining} months left"
+print(message)
 
 #Building A Tip Calculator
 
